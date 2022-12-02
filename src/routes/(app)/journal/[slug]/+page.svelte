@@ -29,7 +29,7 @@
 			</div>
 			<div id="journal-body" class="mt-8 w-full flex flex-col gap-4 items-start">
 				<div id="journal-title" class="flex flex-col gap-1">
-					<div class="text-2xl font-semibold">
+					<div class="text-3xl font-semibold">
 						{item.content.journal_title}
 					</div>
 					<div class="text-sm text-neutral-400">
