@@ -1,6 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 	import { useStoryblokBridge } from '@storyblok/svelte';
+	import MarkdownTo from '$lib/components/misc/MarkdownTo.svelte';
 
 	/** @type {any}*/
 	export let data;
@@ -36,7 +37,7 @@
 					</div>
 				</div>
 				<div class="text-sm">
-					{item.content.journal_body}
+					<MarkdownTo markdown={item.content.journal_body} />
 				</div>
 			</div>
 		</div>
