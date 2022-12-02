@@ -3,7 +3,6 @@
 	import { Circle } from 'svelte-loading-spinners';
 	import { toaster } from '$lib/stores/toaster';
 	import ToastBox from '$lib/components/misc/ToastBox.svelte';
-	import { onMount } from 'svelte';
 
 	let emailReg = /^[\w-.]+@([\w-]+.)+[\w-]{2,4}$/;
 
@@ -57,7 +56,6 @@
 			});
 	};
 
-	onMount(() => console.log(import.meta.env.VITE_EMAIL_PUBLIC_KEY));
 </script>
 
 <div

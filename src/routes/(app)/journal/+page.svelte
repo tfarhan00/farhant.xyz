@@ -7,6 +7,7 @@
 
 	let { story } = data;
 	let item = story.data;
+
 </script>
 
 <div>

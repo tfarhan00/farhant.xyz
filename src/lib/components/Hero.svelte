@@ -13,7 +13,7 @@
 		</div>
 		<div class="w-full font-medium">
 			<h1 class="text-neutral-400">
-				As a &#128104;&#8205;&#128187;, I started my journey in web development roughly around 6
+				As a &#128104;&#8205;&#128187;, I've started my journey in web development roughly around 6
 				months ago, and keep continuing ever since with my main model "Simplicity In Mind" &#10024;
 			</h1>
 		</div>
