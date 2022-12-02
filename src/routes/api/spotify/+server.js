@@ -1,7 +1,6 @@
 import { json } from '@sveltejs/kit';
 import { SPOTIFY_ID, SPOTIFY_SECRET, SPOTIFY_TOKEN } from '$env/static/private';
 
-export const prerender = false;
 
 /** @type {import('./$types').RequestHandler} */
 export async function GET() {
