@@ -8,10 +8,10 @@
 	<div id="about" class="w-full flex flex-col gap-3">
 		<h1>About</h1>
 		<div class="text-neutral-400 text-sm">
-			I'm a relatively newcomer in the programming world, I explore a vast enough amount of knowledge
-			about web development and software engineering, and some topics that I really like to talk
-			about are music, cryptocurrency, movies, food, and of course programming. Currently, I am
-			deeply interested in low-level programming, Rust is on my schedule.
+			I'm a relatively newcomer in the programming world, I explore a vast enough amount of
+			knowledge about web development and software engineering, and some topics that I really like
+			to talk about are music, cryptocurrency, movies, food, and of course programming. Currently, I
+			am deeply interested in low-level programming, Rust is on my schedule.
 		</div>
 	</div>
 	<div id="Work Experience" class="w-full flex flex-col gap-3">

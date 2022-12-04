@@ -16,10 +16,7 @@
 <svelte:head>
 	<title>Farhant - {item.content.journal_title}</title>
 	<meta name="title" content={item.content.journal_title} />
-	<meta
-		name="description"
-		content={item.content.journal_desc}
-	/>
+	<meta name="description" content={item.content.journal_desc} />
 	<meta
 		name="keywords"
 		content="developer, frontend, react, svelte, blog, designer, javascript, typescript, nextjs, cms, software, engineer, webdevelopment, programming, code"

@@ -55,7 +55,6 @@
 				loadingSend = false;
 			});
 	};
-
 </script>
 
 <div

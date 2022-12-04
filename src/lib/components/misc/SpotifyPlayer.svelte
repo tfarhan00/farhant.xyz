@@ -8,18 +8,14 @@
 	<div class="w-full h-full flex items-center justify-between gap-3">
 		<div class="flex items-center gap-3 overflow-x-auto whitespace-nowrap hideScroll">
 			<div class="shrink-0 w-8 h-8 flex items-center justify-center rounded-full overflow-hidden ">
-				<img
-					src={theSong.coverUrl}
-					alt={theSong.title}
-					class="w-full h-full object-cover"
-				/>
+				<img src={theSong.coverUrl} alt={theSong.title} class="w-full h-full object-cover" />
 			</div>
 			<a
-			href={theSong.songUrl}
-			target="_blank"
+				href={theSong.songUrl}
+				target="_blank"
 				rel="noreferrer"
 				class="flex items-center gap-1 hover:text-neutral-500 transition-all duration-300"
-				>
+			>
 				<div>
 					{theSong.title}
 				</div>
@@ -31,7 +27,7 @@
 			</a>
 		</div>
 		<div class="text-green-400 text-xl">
-			<i class="bi bi-spotify"></i>
+			<i class="bi bi-spotify" />
 		</div>
 	</div>
 </div>

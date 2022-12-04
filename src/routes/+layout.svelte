@@ -13,8 +13,8 @@
 			path: $page.url.pathname,
 			params: $page.params,
 			analyticsId
-		})
-		inject()
+		});
+		inject();
 	}
 </script>
 
@@ -25,18 +25,18 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
 		rel="preload"
-                as="style"
+		as="style"
 	/>
-        <link
+	<link
 		href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
 		rel="stylesheet"
 	/>
 	<link
 		rel="preload"
 		href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
-                as="style"
+		as="style"
 	/>
-        <link
+	<link
 		rel="stylesheet"
 		href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
 	/>

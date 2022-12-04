@@ -10,7 +10,8 @@ export const worksData = [
 	{
 		title: 'Tfarhan',
 		desc: 'Initial plan of my portfolio design with iOS influence, it has some unique features like Spotify Preview, Map Viewer, and Email Sender. Built with Next.js, TailwindCSS, Framer Motion, & Mapbox.',
-		imgSrc: 'https://res.cloudinary.com/dd9nhl1mn/image/upload/c_scale,cs_srgb,f_webp,h_887,q_auto/v1669451666/tfarhanweb_najzzw.webp',
+		imgSrc:
+			'https://res.cloudinary.com/dd9nhl1mn/image/upload/c_scale,cs_srgb,f_webp,h_887,q_auto/v1669451666/tfarhanweb_najzzw.webp',
 		linkSrc: 'https://tfarhan.vercel.app',
 		linkName: 'tfarhan.app'
 	}

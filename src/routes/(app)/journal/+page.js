@@ -10,6 +10,6 @@ export async function load({ parent }) {
 	});
 
 	return {
-		story: data,
+		story: data
 	};
 }

@@ -9,7 +9,8 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"format": "prettier --plugin-search-dir . --write ."
+		"format": "prettier --plugin-search-dir . --write .",
+		"postbuild": "pnpm dlx svelte-sitemap --domain https://farhant.xyz"
 	},
 	"devDependencies": {
 		"@emailjs/browser": "^3.10.0",
@@ -41,6 +42,7 @@
 		"svelte-loading-spinners": "^0.3.4",
 		"svelte-popperjs": "^1.3.2",
 		"svelte-preprocess": "^4.10.7",
+		"svelte-sitemap": "^2.5.3",
 		"tailwindcss": "^3.2.4",
 		"typescript": "^4.9.3",
 		"vite": "^3.2.4",
