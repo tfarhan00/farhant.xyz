@@ -56,11 +56,14 @@
 	>
 		<button
 			id="icon-1"
+			type="button"
+			name="button-1"
+			aria-label="linkedin"
 			use:popperRef1
 			on:mouseenter={() => (icon1 = true)}
 			on:mouseleave={() => (icon1 = false)}
 		>
-			<a id="link-1" {...linkProps} href={URL.LINKED_IN}>
+			<a id="link-1" aria-label="linkedin-link" {...linkProps} href={URL.LINKED_IN}>
 				<i class="bi bi-linkedin" />
 			</a>
 			{#if icon1}
@@ -75,11 +78,14 @@
 		</button>
 		<button
 			id="icon-2"
+			type="button"
+			name="button-2"
+			aria-label="instagram"
 			use:popperRef2
 			on:mouseenter={() => (icon2 = true)}
 			on:mouseleave={() => (icon2 = false)}
 		>
-			<a id="link-2" {...linkProps} href={URL.INSTAGRAM}>
+			<a id="link-2" aria-label="instagram-link" {...linkProps} href={URL.INSTAGRAM}>
 				<i class="bi bi-instagram" />
 			</a>
 			{#if icon2}
@@ -94,11 +100,14 @@
 		</button>
 		<button
 			id="icon-3"
+			type="button"
+			name="button-3"
+			aria-label="twitter"
 			use:popperRef3
 			on:mouseenter={() => (icon3 = true)}
 			on:mouseleave={() => (icon3 = false)}
 		>
-			<a id="link-3" {...linkProps} href={URL.TWITTER}>
+			<a id="link-3" aria-label="twitter-link" {...linkProps} href={URL.TWITTER}>
 				<i class="bi bi-twitter" />
 			</a>
 			{#if icon3}
@@ -113,11 +122,14 @@
 		</button>
 		<button
 			id="icon-4"
+			type="button"
+			name="button-4"
+			aria-label="github"
 			use:popperRef4
 			on:mouseenter={() => (icon4 = true)}
 			on:mouseleave={() => (icon4 = false)}
 		>
-			<a id="link-4" {...linkProps} href={URL.GITHUB}>
+			<a id="link-4" aria-label="github-link" {...linkProps} href={URL.GITHUB}>
 				<i class="bi bi-github" />
 			</a>
 			{#if icon4}

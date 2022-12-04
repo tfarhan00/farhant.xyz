@@ -1,4 +1,3 @@
-export const csr = true;
 
 /** @param {any} fetch*/
 export async function load({ fetch }) {
