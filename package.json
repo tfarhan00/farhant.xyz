@@ -10,7 +10,7 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
-		"postbuild": "pnpm dlx svelte-sitemap --domain https://farhant.xyz"
+		"postbuild": "pnpm dlx svelte-sitemap --domain --out-dir public https://farhant.xyz"
 	},
 	"devDependencies": {
 		"@emailjs/browser": "^3.10.0",
