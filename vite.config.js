@@ -9,6 +9,9 @@ const config = {
 	server: {
 		https: httpsState,
 		open: httpsState && 'https://localhost:5173'
+	},
+	define: {
+		'import.meta.env.VERCEL_ANALYTICS_ID': JSON.stringify(process.env.VERCEL_ANALYTICS_ID)
 	}
 };
 
