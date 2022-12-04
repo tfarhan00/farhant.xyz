@@ -55,11 +55,12 @@
 		class="absolute top-[50%] left-[50%] -translate-y-[50%] -translate-x-[50%] flex items-center gap-4 text-neutral-500 text-normal"
 	>
 		<button
+			id="icon-1"
 			use:popperRef1
 			on:mouseenter={() => (icon1 = true)}
 			on:mouseleave={() => (icon1 = false)}
 		>
-			<a {...linkProps} href={URL.LINKED_IN}>
+			<a id="link-1" {...linkProps} href={URL.LINKED_IN}>
 				<i class="bi bi-linkedin" />
 			</a>
 			{#if icon1}
@@ -73,11 +74,12 @@
 			{/if}
 		</button>
 		<button
+			id="icon-2"
 			use:popperRef2
 			on:mouseenter={() => (icon2 = true)}
 			on:mouseleave={() => (icon2 = false)}
 		>
-			<a {...linkProps} href={URL.INSTAGRAM}>
+			<a id="link-2" {...linkProps} href={URL.INSTAGRAM}>
 				<i class="bi bi-instagram" />
 			</a>
 			{#if icon2}
@@ -91,11 +93,12 @@
 			{/if}
 		</button>
 		<button
+			id="icon-3"
 			use:popperRef3
 			on:mouseenter={() => (icon3 = true)}
 			on:mouseleave={() => (icon3 = false)}
 		>
-			<a {...linkProps} href={URL.TWITTER}>
+			<a id="link-3" {...linkProps} href={URL.TWITTER}>
 				<i class="bi bi-twitter" />
 			</a>
 			{#if icon3}
@@ -109,11 +112,12 @@
 			{/if}
 		</button>
 		<button
+			id="icon-4"
 			use:popperRef4
 			on:mouseenter={() => (icon4 = true)}
 			on:mouseleave={() => (icon4 = false)}
 		>
-			<a {...linkProps} href={URL.GITHUB}>
+			<a id="link-4" {...linkProps} href={URL.GITHUB}>
 				<i class="bi bi-github" />
 			</a>
 			{#if icon4}

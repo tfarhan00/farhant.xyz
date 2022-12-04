@@ -22,7 +22,7 @@
 		{description}
 	</div>
 	<a
-		id="works-link"
+		id={`works-${title}`}
 		href={link}
 		class="text-white text-sm flex items-center gap-2 hover:gap-3 hover:text-neutral-400 transition-all duration-300"
 	>
