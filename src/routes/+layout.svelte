@@ -9,7 +9,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true" />
 	<link
 		href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-		rel="preload"
+		rel="preload stylesheet"
 	/>
 	<link
 		rel="preload stylesheet"
