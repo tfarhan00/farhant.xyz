@@ -22,6 +22,12 @@
 # this automatically open a browser page, you can turn it off by setting the httpsState to false in vite.config.js
 - pnpm run dev 
 ```
+## Optimization Tips
+- Store your image assets in cloudinary, and take the advantage of their transformation feature <br>
+to convert your image to webp format and rescale the resolution to reduce the overall size
+- When using third party CDN script make sure to put rel="preload" attribute to avoid render blocking
+- Use free meta tags generator to easily add your meta tags for improved SEO
+- Configure the best render method for your scenario, by default svelte enabled dynamic render  
 
 ## Performance Snapshot
 ![Lighthouse](https://res.cloudinary.com/dd9nhl1mn/image/upload/v1670154145/lighthouse100_nzykza.jpg)
