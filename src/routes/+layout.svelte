@@ -4,6 +4,7 @@
 	import { webVitals } from '$lib/misc/vitals';
 	import { browser } from '$app/environment';
 	import { page } from '$app/stores';
+	import { inject } from '@vercel/analytics';
 
 	let analyticsId = import.meta.env.VERCEL_ANALYTICS_ID;
 
@@ -13,6 +14,7 @@
 			params: $page.params,
 			analyticsId
 		})
+		inject()
 	}
 </script>
 
