@@ -55,7 +55,7 @@
 	<meta name="author" content="Tengku Farhan" />
 </svelte:head>
 
-<div id="root-contain" class="w-full bg-neutral-800 text-white antialiased overflow-hidden">
+<div id="root-contain" class="w-full bg-neutral-900 text-white antialiased overflow-hidden">
 	<Header />
 	<slot />
 </div>
