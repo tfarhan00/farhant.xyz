@@ -71,7 +71,7 @@
 	<div id="input-insight" class="w-full flex items-center gap-2">
 		<div
 			id="send-message"
-			class="w-full relative flex items-center justify-between gap-3 px-4 py-3 bg-black border border-neutral-800 text-gray-900 text-xs rounded-lg"
+			class="w-full relative flex items-center justify-between gap-3 px-4 py-3 bg-neutral-900 border border-neutral-800 text-gray-900 text-xs rounded-lg"
 		>
 			<div class="h-full grow">
 				<input
