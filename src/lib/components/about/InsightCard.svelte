@@ -59,7 +59,7 @@
 
 <div
 	id="insight-section"
-	class="relative w-full p-6 flex flex-col gap-6 items-center bg-black border border-neutral-800 rounded-2xl"
+	class="relative w-full p-6 flex flex-col gap-6 items-center bg-neutral-900 border border-neutral-800 rounded-2xl"
 >
 	<div class="w-full flex flex-col text-sm gap-2">
 		<p class="text-white">
