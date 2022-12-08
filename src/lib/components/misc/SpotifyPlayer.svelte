@@ -4,7 +4,7 @@
 	const theSong = song.data.song;
 </script>
 
-<div class="w-full px-4 text-xs py-3 rounded-full bg-black border border-neutral-800">
+<div class="w-full px-4 text-xs py-3 rounded-full bg-neutral-900 border border-neutral-800">
 	<div class="w-full h-full flex items-center justify-between gap-3">
 		<div class="flex items-center gap-3 overflow-x-auto whitespace-nowrap hideScroll">
 			<div class="shrink-0 w-8 h-8 flex items-center justify-center rounded-full overflow-hidden ">
