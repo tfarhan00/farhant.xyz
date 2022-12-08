@@ -35,7 +35,7 @@
 				</div>
 				<div
 					id="subscribe-email"
-					class="relative w-full flex items-center justify-between px-4 py-3 bg-black border border-neutral-800 text-gray-900 text-sm rounded-lg"
+					class="relative w-full flex items-center justify-between px-4 py-3 bg-neutral-900 border border-neutral-800 text-gray-900 text-sm rounded-lg"
 				>
 					<div class="flex items-center gap-2">
 						<div>
