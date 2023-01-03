@@ -63,8 +63,8 @@
 >
 	<div class="w-full flex flex-col text-sm gap-2">
 		<p class="text-white">
-			Hi There, I'm currently working as a junior frontend developer in a company, if you have
-			something in mind, just send me some message.
+			Hi There, I'm currently working as a frontend developer in a company, if you have
+			something in mind or a project, just send me some message.
 		</p>
 		<p class="text-neutral-400">Just Now</p>
 	</div>
